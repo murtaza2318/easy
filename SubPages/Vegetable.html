@@ -1,0 +1,638 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vegetable</title>
+	
+	    <!--This is Customized CSS file-->
+	<link rel="stylesheet"  href="../assests/style.css">
+	
+		<!--This is Bootstrap CSS file-->
+	<link rel="stylesheet"  href="../assests/Bootstrap/css/bootstrap.min.css">
+	
+		<!--This is Fontawesome CSS file-->
+	<link rel="stylesheet"  href="../assests/Fontawesome/css/all.min.css">
+	
+</head>
+
+<body>
+	
+	
+	<!--Header Section Starts Here--> 
+	
+<nav id="navi" class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="../assests/Images/logo.png" alt=""></a>
+    <button id="navbtn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul id="navigation" class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul id="navdrop" class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="Vegetable.html">Vegetable</a></li>
+            <li><a class="dropdown-item" href="Spices.html">Spices</a></li>
+            <li><a class="dropdown-item" href="Fruit.html">Fresh Fruit</a></li>
+			<li><a class="dropdown-item" href="Dry-Fruits.html">Dry Fruit</a></li>
+			<li><a class="dropdown-item" href="Organic-Oil.html">Organic Oil</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Services Page.HTML">Services</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+	
+
+	
+	<!--Header Section Ends Here-->
+
+	<!--Product Section Starts Here-->
+	
+	<div class="container my-5"> 
+		
+		<div id="product-heading"><h2>our vegetable products</h2></div>
+	<div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3  my-5 ">
+  <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/celery.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">celery</h5>
+        <p class="card-text">Organic celery has a wide variety of uses and appeals....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop1"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 1 -->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Vegetable</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Organic Celery </h1>
+        <h2>2$</h2>
+        <p>Organic celery has a wide variety of uses and appeals to a many different consumers. Celery can be used both raw and cooked in a variety of dishes. With organic celery making up more than 10% of celery category sales, it's worth giving it some attention in your department.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+		
+  <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/cherry-tomato.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tomatoes</h5>
+        <p class="card-text">OUR's Organic Cherry Tomatoes have no cholesterol....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 2 -->
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Vegetable</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Tomato</h1>
+        <h2>3$</h2>
+        <p>OUR's Organic Cherry Tomatoes have no cholesterol or saturated fat and provide a good source of vitamins A and C at only 35 calories per serving. Our's Organic Cherry Tomatoes are naturally fresh and juicy, delivering garden-fresh quality without the use of synthetic fertilizers, pesticides, or herbicides.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+		
+  <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/Organic-Mini-Cucumber.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cucumber</h5>
+        <p class="card-text">Cucumbers are a very good source of the vitamins....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop3"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 3 -->
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Vegetable</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Cucumber</h1>
+        <h2>2$</h2>
+        <p>Cucumbers are a very good source of the vitamins and minerals. Now WE offers crisp and refreshing cucumbers free of any harmful chemicals added to the product or to the earth.  For over 10,000 years, man has enjoyed this fruit for its wonderful flavor as well as for its beneficial effects to the skin.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+		
+		
+  <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/snow peas.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Peas</h5>
+        <p class="card-text">Sugar Snap Peas are edible podded peas that have thicker....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop4"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 4 -->
+<div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Vegetable</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Snap Peas</h1>
+        <h2>2$</h2>
+        <p>Sugar Snap Peas are edible podded peas that have thicker walls and plump pods. It is a cross between standard peas and snow peas and are crunchier and sweeter. It is a fresh, refreshing vegetable that can be added to a variety of recipes or eaten raw. It provides an excellent source of protein and fiber</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+		
+    <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/spinach.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">spinach</h5>
+        <p class="card-text">It is organically grown without the use of chemicals....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop5"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 5 -->
+<div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Vegetable</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Spinach</h1>
+        <h2>1.5$</h2>
+        <p>It is organically grown without the use of chemicals, pesticides, herbicides, or any other harmful sprays. As with everything on our farm, and the family farms we work with, the spinach is raised naturally, with holistic health in mind, where the plant, the planet, our family and your family all benefit.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+		
+     <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/organic_white_potatoes.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Potato</h5>
+        <p class="card-text">Potatoes are a great source of vitamin C, potassium, magnesium, niacin, thiamine....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop6"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 6 -->
+<div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Vegetable</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Potato</h1>
+        <h2>2$</h2>
+        <p>Potatoes are a great source of vitamin C, potassium, magnesium, niacin, thiamine and dietary fibre.
+
+Being a staple in most families homes, organic potatoes are actually one of the most nutritious foods you can eat. They have fewer calories than a grapefruit, more potassium than a banana and surprisingly  more usable iron than any other vegetable.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+     <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/brinjal.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Brinjal</h5>
+        <p class="card-text">Eggplant, aubergine or brinjal is a plant species....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop7"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 7 -->
+<div class="modal fade" id="staticBackdrop7" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Vegetable</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Brinjal</h1>
+        <h2>3$</h2>
+        <p>Eggplant, aubergine or brinjal is a plant species in the nightshade family Solanaceae. Solanum melongena is grown worldwide for its edible fruit. Most commonly purple, the spongy, absorbent fruit is used in several cuisines.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+		
+       <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/ladyfinger.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lady Finger</h5>
+        <p class="card-text">Lady Finger is grow for its long, pointed seed pods, which....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop8"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 8 -->
+<div class="modal fade" id="staticBackdrop8" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Vegetable</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Lady Finger</h1>
+        <h2>4$</h2>
+        <p>Lady Finger is grow for its long, pointed seed pods, which are used in gumbos and soups. Okra is in the same family as cotton, hollyhocks and hibiscus. It can, however, thrive in any climate where corn will grow. Depending on the cultivar, the large-flowered, fast-growing plants reach 2 to 6 feet tall.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+		
+     <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/Bottle-Gourd.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Bottle Gourd</h5>
+        <p class="card-text">The bottle gourd is yellowish - green in colours and has....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop9"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 9 -->
+<div class="modal fade" id="staticBackdrop9" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Vegetable</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Bottle Gourd</h1>
+        <h2>1$</h2>
+        <p>The bottle gourd is yellowish - green in colours and has a white spongy flesh. It is an excellent low calorie vegetable that is packed with all essential minerals and vitamins.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+</div>
+</div>
+	
+	
+	<!--Product Section Ends Here-->
+	
+	<!--Footer Section Starts Here-->
+	
+ 
+  <footer class="text-center text-lg-start text-white bg-success">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row ">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 border-end">
+            <h6 id="heading" class="text-uppercase mb-4 font-weight-bold">
+              Company name
+            </h6>
+            <p>
+                It is to positively impact the lives of as many people as humanly possible. Ultimately, we feel this is possible only by providing our customers with an exceptional experience that keeps them coming back.
+By selling such a high quality & 100% Pure & Natural product at an affordable & Best Price.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 border-end">
+            <h6 id="heading" class="text-uppercase mb-4 font-weight-bold ">Get in touch</h6>
+			 
+            <p>
+              <a class="text-white">0811-233-889</a>
+            </p>
+            <p>
+              <a class="text-white">info@gmail.com</a>
+            </p>
+            <p>
+              <a class="text-white">Eiffle Tower street 4</a>
+            </p>
+            <p>
+              <a class="text-white">+09-876-5432</a>
+            </p>
+			<p>
+              <a class="text-white">+04-812-65432</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 border-end">
+            <h6 id="heading" class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+			 
+            <p>
+              <a class="text-white">Home</a>
+            </p>
+            <p>
+              <a class="text-white">About Us</a>
+            </p>
+            <p>
+              <a class="text-white">Products</a>
+            </p>
+            <p>
+              <a class="text-white">Contact Us</a>
+            </p>
+			<p>
+              <a class="text-white">Services</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 ">
+            <h6 id="heading" class="text-uppercase mb-4 font-weight-bold">Feedback</h6>
+			 
+            <p>
+              We would love to hear your thoughts, suggestions, concerns or problems with anything so we can improve!
+			 <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Enter Your Email" >
+        <button class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+			 
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3" style="  background-color:#FFFFFF; height: 2px;" >
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3">
+              © 2022 Copyright:
+              <a id="link" class="text-white" href="https://mdbootstrap.com/"
+                 >Organicproducts.com</a>
+            </div>
+            <!-- Copyright -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+ 
+ 
+	 <!--Footer Section End Here-->
+
+</body>
+<script src="../assests/Bootstrap/js/bootstrap.min.js"></script>
+<script src="../assests/jQuery/jQuery.js"></script>
+<script>	
+  function fun(){
+      alert("Item Added Succesfully")	
+  };
+ 
+</script>
+</html>

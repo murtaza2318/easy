@@ -1,0 +1,635 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Organic Oil</title>
+	
+	    <!--This is Customized CSS file-->
+	<link rel="stylesheet"  href="../assests/style.css">
+	
+		<!--This is Bootstrap CSS file-->
+	<link rel="stylesheet"  href="../assests/Bootstrap/css/bootstrap.min.css">
+	
+		<!--This is Fontawesome CSS file-->
+	<link rel="stylesheet"  href="../assests/Fontawesome/css/all.min.css">
+	
+</head>
+
+<body>
+	
+	
+	<!--Header Section Starts Here--> 
+	
+<nav id="navi" class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="../assests/Images/logo.png" alt=""></a>
+    <button id="navbtn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul id="navigation" class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul id="navdrop" class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="Vegetable.html">Vegetable</a></li>
+            <li><a class="dropdown-item" href="Spices.html">Spices</a></li>
+            <li><a class="dropdown-item" href="Fruit.html">Fresh Fruit</a></li>
+			<li><a class="dropdown-item" href="Dry-Fruits.html">Dry Fruit</a></li>
+			<li><a class="dropdown-item" href="Organic-Oil.html">Organic Oil</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Services Page.HTML">Services</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+	
+
+	
+	<!--Header Section Ends Here-->
+
+	<!--Product Section Starts Here-->
+	
+	<div class="container my-5"> 
+		<div id="product-heading"><h2>our Organic Oil products</h2></div>
+	<div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3  my-5 ">
+  <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/sunfloweroil.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sunflower Oil </h5>
+        <p class="card-text">Sunflower oil is the non-volatile oil pressed....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a> 
+		<a href="#"   class="btn btn-info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop1"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 1 -->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Organic Oil</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	 </div>
+     <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Sunflower oil</h1>
+        <h2>3$</h2>
+        <p>Sunflower oil is the non-volatile oil pressed from the seeds of the sunflower. Sunflower oil is commonly used in food as a frying oil, and in cosmetic formulations as an emollient. Sunflower oil is primarily composed of linoleic acid, a polyunsaturated fat, and oleic acid, a monounsaturated fat</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div> 
+ 
+		
+		
+		
+		
+  <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/peanut-oil.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Peanut Oil</h5>
+        <p class="card-text">Peanut oil, also known as groundnut oil or arachis oil....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 2 -->
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Organic Oil</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Peanut Oil</h1>
+        <h2>2$</h2>
+        <p>Peanut oil, also known as groundnut oil or arachis oil, is a vegetable oil derived from peanuts. The oil usually has a mild or neutral flavor but, if made with roasted peanuts, has a stronger peanut flavor and aroma.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+		
+  <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/mustardoil.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mustard Oil</h5>
+        <p class="card-text">Mustard oil can mean either the pressed oil....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop3"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 3 -->
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Organic Oil</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Mustard Oil</h1>
+        <h2>4$</h2>
+        <p>Mustard oil can mean either the pressed oil used for cooking, or a pungent essential oil also known as volatile oil of mustard. The essential oil results from grinding mustard seed, mixing the grounds with water, and extracting the resulting volatile oil by distillation.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+		
+  <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/sesame-oil.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Sesame Oil</h5>
+        <p class="card-text">Sesame oil is an edible vegetable oil derived from sesame seeds....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop4"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 4 -->
+<div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Organic Oil</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Sesame Oil</h1>
+        <h2>4.5$</h2>
+        <p>Sesame oil is an edible vegetable oil derived from sesame seeds. The oil is one of the earliest-known crop-based oils. Worldwide mass modern production is limited due to the inefficient manual harvesting process required to extract the oil.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+		
+    <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/coconutoil.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Coconut Oil</h5>
+        <p class="card-text">Coconut oil is an edible oil derived from the wick,....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop5"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 5 -->
+<div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Organic Oil</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Coconut Oil</h1>
+        <h2>5$</h2>
+        <p>Coconut oil is an edible oil derived from the wick, meat, and milk of the coconut palm fruit. Coconut oil is a white solid fat; in warmer climates during the summer months it is a clear thin liquid oil, melting at warmer room temperatures of around 25 °C. Unrefined varieties have a distinct coconut aroma.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+     <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/almond-oil.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Almond Oil</h5>
+        <p class="card-text">Almonds are the edible seeds of the Prunus dulcis tree....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop6"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 6 -->
+<div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Organic Oil</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Almonds Oil</h1>
+        <h2>1.5$</h2>
+        <p>Almonds are the edible seeds of the Prunus dulcis tree, more commonly known as the almond tree.They are very rich in fat, making them a perfect source of oil.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+     <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/oliveoil.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Olive Oil</h5>
+        <p class="card-text">Olive oil is a liquid fat obtained from olives a traditional....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop7"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 7 -->
+<div class="modal fade" id="staticBackdrop7" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Organic Oil</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Olive Oil</h1>
+        <h2>5$</h2>
+        <p>Olive oil is a liquid fat obtained from olives a traditional tree crop of the Mediterranean Basin, produced by pressing whole olives and extracting the oil</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+		
+       <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/Castor-Oil.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Castor Oil</h5>
+        <p class="card-text">Castor oil is a vegetable oil that is used for a wide....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop8"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 8 -->
+<div class="modal fade" id="staticBackdrop8" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Organic Oil</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Castor Oil</h1>
+        <h2>3$</h2>
+        <p>Castor oil is a vegetable oil that is used for a wide range of cosmetic and medical purposes. It is said to provide health benefits for the face and skin</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+		
+     <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/Jojoba-Oil.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Jojoba Oil</h5>
+        <p class="card-text">Jojoba oil is a humectant ingredientTrusted Source....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop9"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+ <!-- Modal 9 -->
+<div class="modal fade" id="staticBackdrop9" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Organic Oil</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Jojoba oil</h1>
+        <h2>5$</h2>
+        <p>Jojoba oil is a humectant ingredientTrusted Source. This means that it works to attract water to the top layer of the skin, helping to keep the skin hydrated. This may help prevent bacterial infections, acne, and dandruff from forming.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+</div>
+</div>
+</div>	
+	
+	<!--Product Section Ends Here-->
+	
+	<!--Footer Section Starts Here-->
+	
+ 
+  <footer class="text-center text-lg-start text-white bg-success">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row ">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 border-end">
+            <h6 id="heading" class="text-uppercase mb-4 font-weight-bold">
+              Company name
+            </h6>
+            <p>
+                It is to positively impact the lives of as many people as humanly possible. Ultimately, we feel this is possible only by providing our customers with an exceptional experience that keeps them coming back.
+By selling such a high quality & 100% Pure & Natural product at an affordable & Best Price.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 border-end">
+            <h6 id="heading" class="text-uppercase mb-4 font-weight-bold ">Get in touch</h6>
+			 
+            <p>
+              <a class="text-white">0811-233-889</a>
+            </p>
+            <p>
+              <a class="text-white">info@gmail.com</a>
+            </p>
+            <p>
+              <a class="text-white">Eiffle Tower street 4</a>
+            </p>
+            <p>
+              <a class="text-white">+09-876-5432</a>
+            </p>
+			<p>
+              <a class="text-white">+04-812-65432</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 border-end">
+            <h6 id="heading" class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+			 
+            <p>
+              <a class="text-white">Home</a>
+            </p>
+            <p>
+              <a class="text-white">About Us</a>
+            </p>
+            <p>
+              <a class="text-white">Products</a>
+            </p>
+            <p>
+              <a class="text-white">Contact Us</a>
+            </p>
+			<p>
+              <a class="text-white">Services</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 ">
+            <h6 id="heading" class="text-uppercase mb-4 font-weight-bold">Feedback</h6>
+			 
+            <p>
+              We would love to hear your thoughts, suggestions, concerns or problems with anything so we can improve!
+			 <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Enter Your Email" >
+        <button class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+			 
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3" style="  background-color:#FFFFFF; height: 2px;" >
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3">
+              © 2022 Copyright:
+              <a id="link" class="text-white" href="https://mdbootstrap.com/"
+                 >Organicproducts.com</a>
+            </div>
+            <!-- Copyright -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+ 
+ 
+	 <!--Footer Section End Here-->
+
+</body>
+<script src="../assests/Bootstrap/js/bootstrap.min.js"></script>
+<script src="../assests/jQuery/jQuery.js"></script>
+<script>	
+  function fun(){
+      alert("Item Added Succesfully")	
+  };
+ 
+</script>
+</html>

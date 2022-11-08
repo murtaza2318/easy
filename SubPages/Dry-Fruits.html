@@ -1,0 +1,625 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dry Fruits</title>
+	
+	    <!--This is Customized CSS file-->
+	<link rel="stylesheet"  href="../assests/style.css">
+	
+		<!--This is Bootstrap CSS file-->
+	<link rel="stylesheet"  href="../assests/Bootstrap/css/bootstrap.min.css">
+	
+		<!--This is Fontawesome CSS file-->
+	<link rel="stylesheet"  href="../assests/Fontawesome/css/all.min.css">
+	
+</head>
+
+<body>
+	
+	
+	<!--Header Section Starts Here--> 
+	
+<nav id="navi" class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="../assests/Images/logo.png" alt=""></a>
+    <button id="navbtn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul id="navigation" class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About.html">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul id="navdrop" class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="Vegetable.html">Vegetable</a></li>
+            <li><a class="dropdown-item" href="Spices.html">Spices</a></li>
+            <li><a class="dropdown-item" href="Fruit.html">Fresh Fruit</a></li>
+			<li><a class="dropdown-item" href="Dry-Fruits.html">Dry Fruit</a></li>
+			<li><a class="dropdown-item" href="Organic-Oil.html">Organic Oil</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Services Page.HTML">Services</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+	
+
+	
+	<!--Header Section Ends Here-->
+
+	<!--Product Section Starts Here-->
+	
+	<div class="container my-5"> 
+		<div id="product-heading"><h2>our Dry Fruits products</h2></div>
+	<div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3  my-5 ">
+  <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/walnut.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Walnut</h5>
+        <p class="card-text">A walnut is the edible seed of a drupe of any tree....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop1"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+		
+<!-- Modal 1 -->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">DryFruits</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Walnut</h1>
+        <h2>6$</h2>
+        <p>A walnut is the edible seed of a drupe of any tree of the genus Juglans, particularly the Persian or English walnut, Juglans regia. Although culinarily considered a "nut" and used as such, it is not a true botanical nut. After full ripening, the shell is discarded and the kernel is eaten. </p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <button type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+		
+  <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/pine-nuts-chilgoza.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pinus</h5>
+        <p class="card-text">Pinus gerardiana, known as the chilgoza pine or neja....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop2"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+  <!-- Modal 2 -->
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">DryFruits</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>pinus</h1>
+        <h2>8$</h2>
+        <p>Pinus gerardiana, known as the chilgoza pine or neja is a pine native to the northwestern Himalayas in Afghanistan, northern Pakistan, Waziristan and northwestern India, growing at elevations between 1800 and 3350 metres. It often occurs in association with Cedrus deodara and Pinus wallichiana. </p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <button id="bttn" type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+  <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/pistachio.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pistachio</h5>
+        <p class="card-text">The pistachio, a member of the cashew family, is a small tree originating....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2"  onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop3"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+	    <!-- Modal 3 -->
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">DryFruits</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Pistachio</h1>
+        <h2>12$</h2>
+        <p>The pistachio, a member of the cashew family, is a small tree originating from Central Asia and the Middle East. The tree produces seeds that are widely consumed as food. Pistacia vera is often confused with other species in the genus Pistacia that are also known as pistachio. </p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <button id="bttn" type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+	  
+	  
+	  
+  </div>
+  <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/kishmish.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Paisin</h5>
+        <p class="card-text">Golden Raisins are as unforgettable in their taste as in their appearance....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop4"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+    <!-- Modal 4 -->
+<div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">DryFruits</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Golden Raisins</h1>
+        <h2>5$</h2>
+        <p>Golden Raisins are as unforgettable in their taste as in their appearance. Their distinct color and sweet flavor makes them an absolute must have for the times when you could hog some healthy snack or an instant energy booster. Besides being rich in flavor, golden raisins have some amazing health benefits about them which you would want to know!</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <button id="bttn" type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+		
+		
+    <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/Organic-Apricot.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Apricot</h5>
+        <p class="card-text">Apricots are the colorful fruits rich in flavor and sweetly fragrant....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop5"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+      <!-- Modal 5 -->
+<div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">DryFruits</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Apricots</h1>
+        <h2>5$</h2>
+        <p>Apricots are the colorful fruits rich in flavor and sweetly fragrant. The dried apricot is obtained by dehydrating the fruit by natural means to enrich the flavor without reducing any of its nutritive content. Dried apricots contain Calcium, Potassium, Phosphorus, Vitamin A, Iron, and Vitamin C; the essential nutrients required for maintaining a healthy body and combating many diseases as well. Gilgit Baltistan brings to you the rich and tasty apricots from the farms of Shigar and Kharmang, dehydrated naturally (sun dried) and preserved in the best quality standards. Enjoy the sweetness and benefits these round golden-orange eye delights have to offer</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <button id="bttn" type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>  
+		
+     <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/dates.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ajwa Dates</h5>
+        <p class="card-text">Ajwa Dates (Khajoor or Khajur ) of Madiana Munawara, Has dark brown to black skin....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop6"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+      <!-- Modal 6 -->
+<div class="modal fade" id="staticBackdrop6" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">DryFruits</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Ajwa Dates</h1>
+        <h2>18$</h2>
+        <p>Ajwa Dates (Khajoor or Khajur ) of Madiana Munawara, Has dark brown to black skin, Mildly sweet flesh raisin-like texture known to Muslims as a holy date. There are most wholesome ingredients are included in the Ajwa Dates ( Khajoor or Khajur ) such as Calcium, Sulphur, Iron, Potassium, Phosphorus, Manganese Vitamin B6, and other vitamins, Folic acid, Protein, Sugar and natural fibers and they are most beneficial for mental and body health and growth. The taste is also very delicious. But it is very difficult to find Hygenic and clean dates. most of the suppliers don’t take care of their cleanness. As a brand, we strongly take care of freshness. We kept the products on a clean and secure area with secure packing. Our slogan is to provide quality and clean products to all over Pakistan.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <button id="bttn" type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+     <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/Fichi_secchi.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Dried Figs</h5>
+        <p class="card-text">If there was a monarchy in dried fruits, Dried Figs would have ruled....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop7"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+         <!-- Modal 7 -->
+<div class="modal fade" id="staticBackdrop7" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">DryFruits</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Dried Figs</h1>
+        <h2>30$</h2>
+        <p>If there was a monarchy in dried fruits, Dried Figs would have ruled for ever. Loaded with nutrients, figs come in different colors of green, yellow and purple. Gilgit Baltistan Figs are majorly green and purple with an excellent taste and health value. Drying out gives figs the elegant copper-brown color which is in it, an attraction for the eyes. The benefits of figs being limited due to their seasonal nature are now cherished throughout the year in the dried form. The figs are exotic in taste, but dried figs are, simply Divine!! Gilgit Baltistan brings to you the fresh, high in quality, sun dried figs from the farms of Gilgit Baltistan. Relish in the goodness of this fruit, high in flavor and loaded with health.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <button id="bttn" type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+		
+       <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/Prunes.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"> Prune </h5>
+        <p class="card-text">A prune is a dried plum, most commonly from the European plum....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop8"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+	      <!-- Modal 8 -->
+<div class="modal fade" id="staticBackdrop8" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">DryFruits</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Prune</h1>
+        <h2>10$</h2>
+        <p>A prune is a dried plum, most commonly from the European plum. Not all plum species or varieties can be dried into prunes. A prune is the firm-fleshed fruit of Prunus domestica varieties that have a high soluble solids content, and does not ferment during drying.</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <button id="bttn" type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+     <div class="col mb-5">
+    <div class="card h-100">
+      <img src="../assests/Images/almond.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Almond</h5>
+		  <p class="card-text">This almond shell is very soft, and you can easily break....</p>
+      </div>
+	  <div id="prd-btn">
+		<a href="#" class="btn btn-info info w-75 my-2" onClick="fun()"><i class="fa-solid fa-cart-shopping mx-1"></i>Add to Card</a>
+		<a href="#" class="btn btn-info info w-75 my-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop9"><i class="fa-solid fa-circle-info mx-1"></i>Detail</a>
+	  </div>
+    </div>
+  </div>
+</div>
+</div>
+      <!-- Modal 9 -->
+<div class="modal fade" id="staticBackdrop9" data-bs-backdrop="static" data-bs-keyboard="false"  tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">DryFruits</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+   </div>	
+    <div class="container"> 
+     <div class="row">
+      <div class="card h-auto border-0 ">
+        <div class="card-body ">
+        <h1>Almond</h1>
+        <h2>6$</h2>
+        <p>This almond shell is very soft, and you can easily break it through the hand, Almonds are packed with vitamins, minerals, protein, and fiber, and are associated with a number of health benefits. Being a source of vitamin E, copper, magnesium, and high-quality protein, just a handful of almonds contains one-eighth of our necessary daily protein</p>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half-alt"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+        <button id="bttn" type="button" class="btn btn-dark mx-2">Buy Now</button>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>	
+  </div>
+ </div>
+	
+	
+	<!--Product Section Ends Here-->
+	
+	<!--Footer Section Starts Here-->
+	
+ 
+  <footer class="text-center text-lg-start text-white bg-success">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row ">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 border-end">
+            <h6 id="heading" class="text-uppercase mb-4 font-weight-bold">
+              Company name
+            </h6>
+            <p>
+                It is to positively impact the lives of as many people as humanly possible. Ultimately, we feel this is possible only by providing our customers with an exceptional experience that keeps them coming back.
+By selling such a high quality & 100% Pure & Natural product at an affordable & Best Price.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 border-end">
+            <h6 id="heading" class="text-uppercase mb-4 font-weight-bold ">Get in touch</h6>
+			 
+            <p>
+              <a class="text-white">0811-233-889</a>
+            </p>
+            <p>
+              <a class="text-white">info@gmail.com</a>
+            </p>
+            <p>
+              <a class="text-white">Eiffle Tower street 4</a>
+            </p>
+            <p>
+              <a class="text-white">+09-876-5432</a>
+            </p>
+			<p>
+              <a class="text-white">+04-812-65432</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 border-end">
+            <h6 id="heading" class="text-uppercase mb-4 font-weight-bold">
+              Useful links
+            </h6>
+			 
+            <p>
+              <a class="text-white">Home</a>
+            </p>
+            <p>
+              <a class="text-white">About Us</a>
+            </p>
+            <p>
+              <a class="text-white">Products</a>
+            </p>
+            <p>
+              <a class="text-white">Contact Us</a>
+            </p>
+			<p>
+              <a class="text-white">Services</a>
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 ">
+            <h6 id="heading" class="text-uppercase mb-4 font-weight-bold">Feedback</h6>
+			 
+            <p>
+              We would love to hear your thoughts, suggestions, concerns or problems with anything so we can improve!
+			 <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Enter Your Email" >
+        <button class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+      </form>
+			 
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="my-3" style="  background-color:#FFFFFF; height: 2px;" >
+
+      <!-- Section: Copyright -->
+      <section class="p-3 pt-0">
+        <div class="row d-flex align-items-center">
+          <!-- Grid column -->
+          <div class="col-md-7 col-lg-8 text-center text-md-start">
+            <!-- Copyright -->
+            <div class="p-3">
+              © 2022 Copyright:
+              <a id="link" class="text-white" href="https://mdbootstrap.com/"
+                 >Organicproducts.com</a>
+            </div>
+            <!-- Copyright -->
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+            <!-- Facebook -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-outline-light btn-floating m-1"
+               class="text-white"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+          </div>
+          <!-- Grid column -->
+        </div>
+      </section>
+      <!-- Section: Copyright -->
+    </div>
+    <!-- Grid container -->
+  </footer>
+ 
+ 
+	 <!--Footer Section End Here-->
+
+</body>
+<script src="../assests/Bootstrap/js/bootstrap.min.js"></script>
+<script src="../assests/jQuery/jQuery.js"></script>
+<script>	
+  function fun(){
+      alert("Item Added Succesfully")	
+  };
+ 
+</script>
+</html>

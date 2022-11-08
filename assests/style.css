@@ -1,0 +1,372 @@
+
+    /*header*/
+
+#navi {
+	background-color: #262626 !important;
+}
+#navigation li a{
+	color: aliceblue;
+	font-size: 19px;
+	font-family: 'Inconsolata', monospace;
+	transition: 0.3s;
+	font-weight: bold;
+}
+#navigation li a:hover {
+	background-color: white;
+	color: #262626 ;
+	text-decoration: underline;
+}
+#navdrop {
+	color:  aliceblue;
+	font-size: 19px;
+	background-color: #262626;
+}
+#navdrop li a {
+	color: white !important;
+}
+#navdrop li a:hover {
+	background-color: white ;
+	color: #262626 !important ;
+	text-decoration: underline;
+} 
+#navbtn {
+	background-color: aliceblue !important;
+}
+
+   /*header*/
+
+  /*slider*/
+ 
+
+#btn {
+	width: 50px;
+	height: 50px; 
+}
+
+   /*slider*/
+
+ .marquee { 
+  font-size: 25px; 
+  color: #34AD6B;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif" ;
+  font-weight: 900;
+}
+.paravisit{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ 
+ 
+
+
+/* Top selling product  */
+
+#topselling-prd {
+	display: flex;
+}
+#topselling-prd h4 {
+	font-size: 30px;
+	font-family:  'Cookie', cursive;  ;
+	transition: 0.3s;
+	border-bottom:double;
+}
+#topselling-prd h4:hover {
+    transform: scale(1.1);
+	color:#00990C ;
+	cursor:pointer;
+	 
+}
+
+
+/* Top selling product  */
+
+  /* product*/
+#product-heading {
+	display: flex;
+	justify-content: center;
+}
+#product-heading h2 {
+
+	
+	font-size: 40px;
+	text-transform: capitalize;
+	font-weight: bold;
+	transition: 0.3s;
+	font-family: 'Fasthand', cursive;
+}
+#product-heading h2:hover {
+    transform: scale(1.1);
+	color:#00990C ;
+	cursor:pointer;
+}
+
+.our-prd-head {
+    font-size: 40px;
+	font-weight:400 ;
+	text-align: center;
+	text-transform:uppercase;
+	font-family: 'Comforter Brush', cursive;
+	border-bottom:double;
+	animation: 7s type steps(22) infinite;
+	overflow: hidden;
+	white-space:nowrap;
+	width: 0ch;
+	border-right: solid 2px black;
+		
+}
+@keyframes type {
+	0%    { width: 0ch; color:#00FF74; }
+	50%   { width: 22ch; color: #FF38EB ;}
+	 
+}
+
+#prd-btn {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 15px;
+}
+#prd-btn a:hover {
+	background-color: green !important ;
+	border: solid 1px green ;
+	color: white !important;
+}
+.card img {
+	transition: 0.3s;
+}
+ .card img:hover {
+	/*box-shadow:0px 0px  4px 0px black;*/
+	transform: scale(0.9);
+}
+.card-body h2 {
+	color: #00D360;
+}
+.card-body i {
+	color: #FFE223;
+}
+ 
+
+  
+    /* product*/
+
+
+    /*team*/
+
+.our-team-head {
+	font-size: 40px;
+	font-weight:400 ;
+	text-align: center;
+	text-transform:capitalize ;
+	font-family: 'Comforter Brush', cursive;
+	transition: 0.3s;
+	
+}.our-team-head:hover {
+	transform: scale(1.1);
+	color:#00990C ;
+	cursor:pointer;
+}
+.box{
+    background-color: #000;
+    font-family: 'Lobster', sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+.box > img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+}
+.box:hover > img{
+    opacity: 0.5;
+    filter: blur(5px);
+    transform: scale(1.05);
+}
+.box .box-content{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 5px 0 0;
+    transform: translateY(-50%);
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 2;
+}
+.box .box-content .overlay-img{
+    width: 50%;
+    margin: 0 auto;
+}
+.box .box-content .overlay-img img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    opacity: 0;
+    transform: translateY(80%);
+    transition: all 0.3s ease 0.1s;
+}
+.box:hover .box-content .overlay-img img{
+    opacity: 1;
+    transform: translateY(0);
+}
+.box .box-content .inner-content{
+    background-color: #000;
+    padding: 10px 15px;
+    opacity: 0;
+    transform: scaleY(1.5);
+    position: relative;
+    transition: all 0.3s ease;
+}
+.box:hover .box-content .inner-content{
+    opacity: 1;
+    transform: scaleY(1);
+}
+.box .title{
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.box .post{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+    /*team*/
+
+
+
+
+   /*footer*/
+
+
+
+#footercontr {
+  background-color: #262626;
+}
+#column h5 {
+	color: white;
+}
+p a {
+	text-decoration: none;
+	transition: 0.3s;
+}
+p a:hover {
+	text-decoration: underline;
+	padding-left: 8px;
+	cursor: pointer;
+}
+#heading {
+	font-size: 21px;
+}
+#link {
+	text-decoration: none;
+}
+#link:hover{
+	text-decoration: underline;
+}
+
+   /*footer*/
+
+  /*  Contact Us*/
+  
+ 
+ 
+ 
+#map-heading {
+  display: flex;
+  justify-content: center;
+   
+} 
+#map-heading h1 {
+  text-transform: capitalize;
+  border-bottom: 4px #4DBAFF double;
+  transition: 0.3s;
+}
+#map-heading h1:hover {
+  color: #4DBAFF;
+  border-bottom: 4px black double;
+  transform: scale(1.1);
+}
+ 
+ 
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+	
+}
+
+
+.form-area {
+	padding-top: 7%;
+}
+.row.single-form {
+	box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+}
+.left {
+	background: #4DBAFF  ;
+	padding: 200px 98px;
+}
+.left h2 {
+	font-family: poppins !important;
+	color: #fff;
+	font-weight: 700;
+	font-size: 48px;
+	 
+}
+.left p {
+	padding: 6px 0px;
+	
+}
+.left p a {
+	text-decoration: none !important;
+	padding-left: 0px !important;
+	 
+}
+ 
+.left h2 span {
+	font-weight: 100;
+}
+.single-form{
+    background: #fff;
+}
+.right {
+	padding: 70px 100px;
+	position: relative;
+}
+
+.form-control {
+	border: 2px solid #000 !important;
+}
+.right button {
+	border: none;
+	border-radius: 0;
+	background: #252525;
+	width: 180px;
+	color: #fff;
+	padding: 15px 0;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.right button:hover{
+    background-color: #252525 !important;
+}
+
+ 
+   /*  Contact Us*/
+.marquee{position: fixed; z-index: 3; margin-top: 40px; color: black}
